@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="favicon.ico">
+    <title>Music Player</title>
+</head>
+<body>
+    <img src="assets/img/cover1.png" alt="background" id="background" class="background">
+    <audio src="assets/audio/Don't Hurt Yourself.mp3" class="audio"></audio>
+    <div class="wrapper">
+        <div class="container">
+            <div class="player">
+                <img src="assets/img/cover1.png" alt="cover" class="album">
+                <div class="box">
+                    <div class="items">
+                        <div class="center">
+                            <div class="btn-play">
+                                <img src="assets/svg/play.png" alt="play" class="play">
+                                <img src="assets/svg/pause.png" alt="pause" class="pause">    
+                            </div>
+                            <div class="text">
+                                <div class="song-artist">Beyonce</div>
+                                <div class="song">Don't Hurt Yourself</div>
+                            </div>
+                            <div class="btn">
+                                <img src="assets/svg/backward.png" alt="back" class="back">
+                                <img src="assets/svg/forward.png" alt="next" class="next">
+                            </div>
+                        </div>
+                        <div class="input">
+                            <div class="currentTime"></div>
+                            <div class="duration"></div>
+                        </div>
+                        <div class="bar">
+                            <div class="progress"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="footer-items">   
+                <span>© 2022</span>
+                <a href="https://rs.school/js/" target="_blank" id="rs" class="hover">Rolling Scopes</a>
+                <a href="https://github.com/wisatta" target="_blank" class="hover"><p><span>wisatta</span></p></a>  
+            </div>
+        </footer>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
